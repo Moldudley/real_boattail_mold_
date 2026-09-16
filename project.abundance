@@ -879,21 +879,9 @@
       ]
     },
     {
-      "atomType": "Assembly",
-      "x": 0.9,
-      "y": 0.5,
-      "uniqueID": "id-4942",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ]
-    },
-    {
       "atomType": "GitHubMolecule",
-      "x": 0.5,
-      "y": 0.3,
+      "x": 0.4,
+      "y": 0.4,
       "uniqueID": "id-4997",
       "name": "Cross-Section",
       "ioValues": [
@@ -1217,8 +1205,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -3,
-              "currentEquation": "-3"
+              "ioValue": -2,
+              "currentEquation": "-2"
             },
             {
               "name": "yDist",
@@ -1243,13 +1231,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": -6,
-              "currentEquation": "-6"
+              "ioValue": -7.5,
+              "currentEquation": "-7.5"
             },
             {
               "name": "yDist",
-              "ioValue": 3.3,
-              "currentEquation": "3.3"
+              "ioValue": 3.1,
+              "currentEquation": "3.1"
             },
             {
               "name": "zDist",
@@ -1260,8 +1248,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.9,
-          "y": 0.5,
+          "x": 0.4,
+          "y": 0.4,
           "uniqueID": "id-5056",
           "ioValues": [
             {
@@ -1271,6 +1259,81 @@
             {
               "name": "Shape 2",
               "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5,
+          "y": 0.4,
+          "uniqueID": "id-5115",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": -1,
+              "currentEquation": "-1"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.7,
+          "uniqueID": "id-5172",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -2
+            },
+            {
+              "name": "yDist",
+              "ioValue": -3.7,
+              "currentEquation": "-3.7"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.9,
+          "uniqueID": "id-5178",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -7.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": -3.1,
+              "currentEquation": "-3.1"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
@@ -1292,6 +1355,16 @@
           "ap2ID": "id-5050"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5038",
+          "ap2ID": "id-5172"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5038",
+          "ap2ID": "id-5178"
+        },
+        {
           "ap2Name": "Shape 1",
           "ap1ID": "id-5044",
           "ap2ID": "id-5056"
@@ -1302,12 +1375,43 @@
           "ap2ID": "id-5056"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-5056",
+          "ap2ID": "id-5115"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5115",
           "ap2ID": "id-5033"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5172",
+          "ap2ID": "id-5056"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-5178",
+          "ap2ID": "id-5056"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5,
+      "y": 0.4,
+      "uniqueID": "id-5186",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1327,14 +1431,9 @@
       "ap2ID": "id-4997"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-4942",
-      "ap2ID": "id-4843"
-    },
-    {
-      "ap2Name": "Shape 1",
+      "ap2Name": "retain",
       "ap1ID": "id-4997",
-      "ap2ID": "id-4942"
+      "ap2ID": "id-5186"
     }
   ],
   "unitsKey": "Inches",
