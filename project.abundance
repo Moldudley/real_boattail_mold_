@@ -1141,6 +1141,146 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1789529589993
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2,
+      "y": 0.7,
+      "uniqueID": "id-5031",
+      "name": "holes",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 1,
+          "y": 0.5,
+          "uniqueID": "id-5033",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1,
+          "y": 0.4,
+          "uniqueID": "id-5035",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 0.2,
+              "currentEquation": ".2"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.2,
+          "y": 0.4,
+          "uniqueID": "id-5038",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.4,
+          "uniqueID": "id-5044",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 3,
+              "currentEquation": "3"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.6,
+          "uniqueID": "id-5050",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 6,
+              "currentEquation": "6"
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.9,
+          "y": 0.5,
+          "uniqueID": "id-5056",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5035",
+          "ap2ID": "id-5038"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5038",
+          "ap2ID": "id-5044"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5038",
+          "ap2ID": "id-5050"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5056",
+          "ap2ID": "id-5033"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
