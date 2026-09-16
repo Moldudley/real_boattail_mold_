@@ -883,7 +883,12 @@
       "x": 0.9,
       "y": 0.5,
       "uniqueID": "id-4942",
-      "ioValues": []
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -1212,16 +1217,17 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -3,
+              "currentEquation": "-3"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 3.7,
+              "currentEquation": "3.7"
             },
             {
               "name": "zDist",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 0
             }
           ]
         },
@@ -1237,16 +1243,18 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -6,
+              "currentEquation": "-6"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 3.3,
+              "currentEquation": "3.3"
             },
             {
               "name": "zDist",
-              "ioValue": 6,
-              "currentEquation": "6"
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1255,7 +1263,16 @@
           "x": 0.9,
           "y": 0.5,
           "uniqueID": "id-5056",
-          "ioValues": []
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1273,6 +1290,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-5038",
           "ap2ID": "id-5050"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-5044",
+          "ap2ID": "id-5056"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-5050",
+          "ap2ID": "id-5056"
         },
         {
           "ap2Name": "number or geometry",
@@ -1303,6 +1330,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-4942",
       "ap2ID": "id-4843"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-4997",
+      "ap2ID": "id-4942"
     }
   ],
   "unitsKey": "Inches",
