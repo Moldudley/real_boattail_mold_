@@ -557,8 +557,8 @@
             },
             {
               "name": "y length",
-              "ioValue": 6.05,
-              "currentEquation": "6.05"
+              "ioValue": 6.21,
+              "currentEquation": "6.21"
             }
           ]
         },
@@ -608,7 +608,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rectangle-0.5-6.05-0-0-0",
+                "geometry": "move-rectangle-0.5-6.21-0-0-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -756,7 +756,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "loft-move-rectangle-0.5-6.05-0-0-0-move-rectangle-0.5-7.9-0-0-0-{\"origin\":[0,0,9.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
+                "geometry": "loft-move-rectangle-0.5-6.21-0-0-0-move-rectangle-0.5-7.9-0-0-0-{\"origin\":[0,0,9.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1237,8 +1237,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3.1,
+              "currentEquation": "3.1"
             },
             {
               "name": "zDist",
@@ -1329,8 +1329,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": -3,
-              "currentEquation": "-3"
+              "ioValue": -3.1,
+              "currentEquation": "-3.1"
             },
             {
               "name": "zDist",
