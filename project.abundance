@@ -1414,6 +1414,53 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.7,
+      "y": 0.7,
+      "uniqueID": "id-5190",
+      "name": "Extract Untagged",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0,
+      "selectedTags": [],
+      "includeUntagged": true,
+      "notKeepOut": false
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8,
+      "y": 0.7,
+      "uniqueID": "id-5193",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "real_boattail_mold_",
+          "currentEquation": "real_boattail_mold_"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "real_boattail_mold_"
     }
   ],
   "allConnectors": [
@@ -1446,6 +1493,16 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-5186",
       "ap2ID": "id-4843"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5186",
+      "ap2ID": "id-5190"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5190",
+      "ap2ID": "id-5193"
     }
   ],
   "unitsKey": "Inches",
