@@ -128,8 +128,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 4.25,
-              "currentEquation": "4.25"
+              "ioValue": 4.41,
+              "currentEquation": "4.41"
             }
           ]
         },
@@ -179,7 +179,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-2.125-0-0-0",
+                "geometry": "move-circle-2.205-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -376,7 +376,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 4.75
+              "ioValue": 4.91,
+              "currentEquation": "4.91"
             }
           ]
         },
@@ -425,7 +426,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-2.375-0-0-0",
+                "geometry": "move-circle-2.455-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -701,7 +702,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "loft-move-circle-2.375-0-0-0-move-circle-3.3-0-0-0-{\"origin\":[0,0,9.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
+                "geometry": "loft-move-circle-2.455-0-0-0-move-circle-3.3-0-0-0-{\"origin\":[0,0,9.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,3],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
