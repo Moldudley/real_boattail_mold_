@@ -1236,8 +1236,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 3.1,
-              "currentEquation": "3.1"
+              "ioValue": 3,
+              "currentEquation": "3"
             },
             {
               "name": "zDist",
@@ -1328,8 +1328,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": -3.1,
-              "currentEquation": "-3.1"
+              "ioValue": -3,
+              "currentEquation": "-3"
             },
             {
               "name": "zDist",
