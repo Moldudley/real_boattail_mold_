@@ -46,8 +46,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6,
-              "currentEquation": "6"
+              "ioValue": 6
             }
           ]
         },
@@ -75,8 +74,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.1,
-              "currentEquation": "6.1"
+              "ioValue": 6.1
             }
           ]
         },
@@ -100,8 +98,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3
             }
           ]
         },
@@ -129,8 +126,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 4.41,
-              "currentEquation": "4.41"
+              "ioValue": 4.41
             }
           ]
         },
@@ -154,8 +150,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 9.5,
-              "currentEquation": "9.5"
+              "ioValue": 9.5
             }
           ]
         },
@@ -233,7 +228,7 @@
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "closedSelection": 0
@@ -311,8 +306,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.6,
-              "currentEquation": "6.6"
+              "ioValue": 6.6
             }
           ]
         },
@@ -340,8 +334,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.6,
-              "currentEquation": "6.6"
+              "ioValue": 6.6
             }
           ]
         },
@@ -377,8 +370,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 4.91,
-              "currentEquation": "4.91"
+              "ioValue": 4.91
             }
           ]
         },
@@ -493,13 +485,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 0.5,
-              "currentEquation": ".5"
+              "ioValue": 0.5
             },
             {
               "name": "y length",
-              "ioValue": 7.9,
-              "currentEquation": "7.9"
+              "ioValue": 7.9
             }
           ]
         },
@@ -515,8 +505,7 @@
             },
             {
               "name": "height",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3
             }
           ]
         },
@@ -540,8 +529,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 3
             }
           ]
         },
@@ -553,13 +541,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 0.5,
-              "currentEquation": ".5"
+              "ioValue": 0.5
             },
             {
               "name": "y length",
-              "ioValue": 6.21,
-              "currentEquation": "6.21"
+              "ioValue": 6.21
             }
           ]
         },
@@ -583,8 +569,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 9.5,
-              "currentEquation": "9.5"
+              "ioValue": 9.5
             }
           ]
         },
@@ -662,7 +647,7 @@
             },
             {
               "name": "Shape 3",
-              "ioValue": null
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "closedSelection": 0
@@ -893,8 +878,7 @@
         },
         {
           "name": "Angle X",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "Angle Z",
@@ -902,8 +886,7 @@
         },
         {
           "name": "Angle Y",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         }
       ],
       "topLevel": false,
@@ -926,7 +909,8 @@
           "y": 0.2,
           "uniqueID": "id-4987",
           "name": "Geometry",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -934,7 +918,8 @@
           "y": 0.2,
           "uniqueID": "id-4988",
           "name": "Offset",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -942,7 +927,8 @@
           "y": 0.3,
           "uniqueID": "id-4989",
           "name": "Angle X",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -950,7 +936,8 @@
           "y": 0.4,
           "uniqueID": "id-4990",
           "name": "Angle Z",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Input",
@@ -958,7 +945,8 @@
           "y": 0.5,
           "uniqueID": "id-4991",
           "name": "Angle Y",
-          "type": "number"
+          "type": "number",
+          "options": []
         },
         {
           "atomType": "Rectangle",
@@ -1165,8 +1153,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 0.2,
-              "currentEquation": ".2"
+              "ioValue": 0.2
             }
           ]
         },
@@ -1186,8 +1173,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "z-axis degrees",
@@ -1207,13 +1193,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -2,
-              "currentEquation": "-2"
+              "ioValue": -2
             },
             {
               "name": "yDist",
-              "ioValue": 3.7,
-              "currentEquation": "3.7"
+              "ioValue": 3.7
             },
             {
               "name": "zDist",
@@ -1233,18 +1217,15 @@
             },
             {
               "name": "xDist",
-              "ioValue": -7.5,
-              "currentEquation": "-7.5"
+              "ioValue": -7.5
             },
             {
               "name": "yDist",
-              "ioValue": 3.1,
-              "currentEquation": "3.1"
+              "ioValue": 3.1
             },
             {
               "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -1284,8 +1265,7 @@
             },
             {
               "name": "height",
-              "ioValue": -1,
-              "currentEquation": "-1"
+              "ioValue": -1
             }
           ]
         },
@@ -1305,8 +1285,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -3.7,
-              "currentEquation": "-3.7"
+              "ioValue": -3.7
             },
             {
               "name": "zDist",
@@ -1330,8 +1309,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -3.1,
-              "currentEquation": "-3.1"
+              "ioValue": -3.1
             },
             {
               "name": "zDist",
@@ -1461,33 +1439,43 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "real_boattail_mold_"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8,
+      "y": 0.8,
+      "uniqueID": "id-5369",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "real_boattail_mold_",
+          "currentEquation": "real_boattail_mold_"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "real_boattail_mold_"
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "remove",
-      "ap1ID": "id-4852",
-      "ap2ID": "id-4938"
-    },
-    {
-      "ap2Name": "retain",
-      "ap1ID": "id-4892",
-      "ap2ID": "id-4938"
-    },
-    {
       "ap2Name": "Geometry",
       "ap1ID": "id-4938",
       "ap2ID": "id-4997"
-    },
-    {
-      "ap2Name": "retain",
-      "ap1ID": "id-4997",
-      "ap2ID": "id-5186"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-5031",
-      "ap2ID": "id-5186"
     },
     {
       "ap2Name": "number or geometry",
@@ -1503,6 +1491,31 @@
       "ap2Name": "geometry",
       "ap1ID": "id-5190",
       "ap2ID": "id-5193"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5190",
+      "ap2ID": "id-5369"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-4852",
+      "ap2ID": "id-4938"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-4892",
+      "ap2ID": "id-4938"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-4997",
+      "ap2ID": "id-5186"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-5031",
+      "ap2ID": "id-5186"
     }
   ],
   "unitsKey": "Inches",
